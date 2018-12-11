@@ -1,0 +1,19 @@
+{
+	"name": "@guntur/vscode-snippet-nodejs-builtin-modules",
+	"description": "Generate VSCode snippet for NodeJS Builtin Modules",
+	"version": "0.0.0",
+	"main": "index.js",
+	"repository": "iguntur/vscode-snippet-nodejs-builtin-modules",
+	"license": "MIT",
+	"scripts": {
+		"generate": "node index.js"
+	},
+	"author": {
+		"name": "Guntur Poetra",
+		"email": "poetra.guntur@gmail.com",
+		"url": "https://github.com/iguntur"
+	},
+	"devDependencies": {
+		"builtin-modules": "^3.0.0"
+	}
+}
