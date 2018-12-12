@@ -1,19 +1,58 @@
 {
-	"name": "@guntur/vscode-snippet-nodejs-builtin-modules",
-	"description": "Generate VSCode snippet for NodeJS Builtin Modules",
-	"version": "0.0.0",
-	"main": "index.js",
-	"repository": "iguntur/vscode-snippet-nodejs-builtin-modules",
+	"name": "nodejs-module-snippet",
+	"version": "0.0.1",
+	"description": "VSCode Snippet for NodeJS Builtin Modules",
+	"displayName": "NodeJS Module Snippet",
+	"publisher": "gunturpoetra",
 	"license": "MIT",
-	"scripts": {
-		"generate": "node index.js"
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/iguntur/vscode-snippet-nodejs-builtin-modules"
+	},
+	"bugs": {
+		"url": "https://github.com/iguntur/vscode-snippet-nodejs-builtin-modules/issues"
 	},
 	"author": {
 		"name": "Guntur Poetra",
 		"email": "poetra.guntur@gmail.com",
 		"url": "https://github.com/iguntur"
 	},
+	"engines": {
+		"vscode": "^1.29.0"
+	},
+	"categories": [
+		"Snippets"
+	],
+	"contributes": {
+		"snippets": [
+			{
+				"language": "javascript",
+				"path": "./snippets/snippets.json"
+			},
+			{
+				"language": "javascriptreact",
+				"path": "./snippets/snippets.json"
+			},
+			{
+				"language": "typescript",
+				"path": "./snippets/snippets.json"
+			},
+			{
+				"language": "typescriptreact",
+				"path": "./snippets/snippets.json"
+			},
+			{
+				"language": "markdown",
+				"path": "./snippets/snippets.json"
+			}
+		]
+	},
+	"scripts": {
+		"build": "node scripts/build.js",
+		"visual:test": "node scripts/visual-test.js"
+	},
 	"devDependencies": {
-		"builtin-modules": "^3.0.0"
+		"builtin-modules": "^3.0.0",
+		"path-ensure": "^2.0.1"
 	}
 }

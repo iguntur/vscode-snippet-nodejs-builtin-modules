@@ -1,0 +1,572 @@
+{
+    "(commonjs) - require 'assert'": {
+        "prefix": "req::assert",
+        "description": "const assert = require('assert')",
+        "body": "const ${1:assert} = require('assert');"
+    },
+    "(esmodule) - import 'assert'": {
+        "prefix": "esm::assert",
+        "description": "import assert from 'assert'",
+        "body": "import ${1:${2:* as }assert} from 'assert';"
+    },
+    "(typescript) - import = require 'assert'": {
+        "prefix": "ts::assert",
+        "description": "import assert = require('assert')",
+        "body": "import ${1:assert} = require('assert');"
+    },
+    "(commonjs) - require 'async_hooks'": {
+        "prefix": "req::async_hooks",
+        "description": "const async_hooks = require('async_hooks')",
+        "body": "const ${1:async_hooks} = require('async_hooks');"
+    },
+    "(esmodule) - import 'async_hooks'": {
+        "prefix": "esm::async_hooks",
+        "description": "import async_hooks from 'async_hooks'",
+        "body": "import ${1:${2:* as }async_hooks} from 'async_hooks';"
+    },
+    "(typescript) - import = require 'async_hooks'": {
+        "prefix": "ts::async_hooks",
+        "description": "import async_hooks = require('async_hooks')",
+        "body": "import ${1:async_hooks} = require('async_hooks');"
+    },
+    "(commonjs) - require 'buffer'": {
+        "prefix": "req::buffer",
+        "description": "const buffer = require('buffer')",
+        "body": "const ${1:buffer} = require('buffer');"
+    },
+    "(esmodule) - import 'buffer'": {
+        "prefix": "esm::buffer",
+        "description": "import buffer from 'buffer'",
+        "body": "import ${1:${2:* as }buffer} from 'buffer';"
+    },
+    "(typescript) - import = require 'buffer'": {
+        "prefix": "ts::buffer",
+        "description": "import buffer = require('buffer')",
+        "body": "import ${1:buffer} = require('buffer');"
+    },
+    "(commonjs) - require 'child_process'": {
+        "prefix": "req::child_process",
+        "description": "const child_process = require('child_process')",
+        "body": "const ${1:child_process} = require('child_process');"
+    },
+    "(esmodule) - import 'child_process'": {
+        "prefix": "esm::child_process",
+        "description": "import child_process from 'child_process'",
+        "body": "import ${1:${2:* as }child_process} from 'child_process';"
+    },
+    "(typescript) - import = require 'child_process'": {
+        "prefix": "ts::child_process",
+        "description": "import child_process = require('child_process')",
+        "body": "import ${1:child_process} = require('child_process');"
+    },
+    "(commonjs) - require 'cluster'": {
+        "prefix": "req::cluster",
+        "description": "const cluster = require('cluster')",
+        "body": "const ${1:cluster} = require('cluster');"
+    },
+    "(esmodule) - import 'cluster'": {
+        "prefix": "esm::cluster",
+        "description": "import cluster from 'cluster'",
+        "body": "import ${1:${2:* as }cluster} from 'cluster';"
+    },
+    "(typescript) - import = require 'cluster'": {
+        "prefix": "ts::cluster",
+        "description": "import cluster = require('cluster')",
+        "body": "import ${1:cluster} = require('cluster');"
+    },
+    "(commonjs) - require 'console'": {
+        "prefix": "req::console",
+        "description": "const console = require('console')",
+        "body": "const ${1:console} = require('console');"
+    },
+    "(esmodule) - import 'console'": {
+        "prefix": "esm::console",
+        "description": "import console from 'console'",
+        "body": "import ${1:${2:* as }console} from 'console';"
+    },
+    "(typescript) - import = require 'console'": {
+        "prefix": "ts::console",
+        "description": "import console = require('console')",
+        "body": "import ${1:console} = require('console');"
+    },
+    "(commonjs) - require 'constants'": {
+        "prefix": "req::constants",
+        "description": "const constants = require('constants')",
+        "body": "const ${1:constants} = require('constants');"
+    },
+    "(esmodule) - import 'constants'": {
+        "prefix": "esm::constants",
+        "description": "import constants from 'constants'",
+        "body": "import ${1:${2:* as }constants} from 'constants';"
+    },
+    "(typescript) - import = require 'constants'": {
+        "prefix": "ts::constants",
+        "description": "import constants = require('constants')",
+        "body": "import ${1:constants} = require('constants');"
+    },
+    "(commonjs) - require 'crypto'": {
+        "prefix": "req::crypto",
+        "description": "const crypto = require('crypto')",
+        "body": "const ${1:crypto} = require('crypto');"
+    },
+    "(esmodule) - import 'crypto'": {
+        "prefix": "esm::crypto",
+        "description": "import crypto from 'crypto'",
+        "body": "import ${1:${2:* as }crypto} from 'crypto';"
+    },
+    "(typescript) - import = require 'crypto'": {
+        "prefix": "ts::crypto",
+        "description": "import crypto = require('crypto')",
+        "body": "import ${1:crypto} = require('crypto');"
+    },
+    "(commonjs) - require 'dgram'": {
+        "prefix": "req::dgram",
+        "description": "const dgram = require('dgram')",
+        "body": "const ${1:dgram} = require('dgram');"
+    },
+    "(esmodule) - import 'dgram'": {
+        "prefix": "esm::dgram",
+        "description": "import dgram from 'dgram'",
+        "body": "import ${1:${2:* as }dgram} from 'dgram';"
+    },
+    "(typescript) - import = require 'dgram'": {
+        "prefix": "ts::dgram",
+        "description": "import dgram = require('dgram')",
+        "body": "import ${1:dgram} = require('dgram');"
+    },
+    "(commonjs) - require 'dns'": {
+        "prefix": "req::dns",
+        "description": "const dns = require('dns')",
+        "body": "const ${1:dns} = require('dns');"
+    },
+    "(esmodule) - import 'dns'": {
+        "prefix": "esm::dns",
+        "description": "import dns from 'dns'",
+        "body": "import ${1:${2:* as }dns} from 'dns';"
+    },
+    "(typescript) - import = require 'dns'": {
+        "prefix": "ts::dns",
+        "description": "import dns = require('dns')",
+        "body": "import ${1:dns} = require('dns');"
+    },
+    "(commonjs) - require 'domain'": {
+        "prefix": "req::domain",
+        "description": "const domain = require('domain')",
+        "body": "const ${1:domain} = require('domain');"
+    },
+    "(esmodule) - import 'domain'": {
+        "prefix": "esm::domain",
+        "description": "import domain from 'domain'",
+        "body": "import ${1:${2:* as }domain} from 'domain';"
+    },
+    "(typescript) - import = require 'domain'": {
+        "prefix": "ts::domain",
+        "description": "import domain = require('domain')",
+        "body": "import ${1:domain} = require('domain');"
+    },
+    "(commonjs) - require 'events'": {
+        "prefix": "req::events",
+        "description": "const events = require('events')",
+        "body": "const ${1:events} = require('events');"
+    },
+    "(esmodule) - import 'events'": {
+        "prefix": "esm::events",
+        "description": "import events from 'events'",
+        "body": "import ${1:${2:* as }events} from 'events';"
+    },
+    "(typescript) - import = require 'events'": {
+        "prefix": "ts::events",
+        "description": "import events = require('events')",
+        "body": "import ${1:events} = require('events');"
+    },
+    "(commonjs) - require 'fs'": {
+        "prefix": "req::fs",
+        "description": "const fs = require('fs')",
+        "body": "const ${1:fs} = require('fs');"
+    },
+    "(esmodule) - import 'fs'": {
+        "prefix": "esm::fs",
+        "description": "import fs from 'fs'",
+        "body": "import ${1:${2:* as }fs} from 'fs';"
+    },
+    "(typescript) - import = require 'fs'": {
+        "prefix": "ts::fs",
+        "description": "import fs = require('fs')",
+        "body": "import ${1:fs} = require('fs');"
+    },
+    "(commonjs) - require 'http'": {
+        "prefix": "req::http",
+        "description": "const http = require('http')",
+        "body": "const ${1:http} = require('http');"
+    },
+    "(esmodule) - import 'http'": {
+        "prefix": "esm::http",
+        "description": "import http from 'http'",
+        "body": "import ${1:${2:* as }http} from 'http';"
+    },
+    "(typescript) - import = require 'http'": {
+        "prefix": "ts::http",
+        "description": "import http = require('http')",
+        "body": "import ${1:http} = require('http');"
+    },
+    "(commonjs) - require 'http2'": {
+        "prefix": "req::http2",
+        "description": "const http2 = require('http2')",
+        "body": "const ${1:http2} = require('http2');"
+    },
+    "(esmodule) - import 'http2'": {
+        "prefix": "esm::http2",
+        "description": "import http2 from 'http2'",
+        "body": "import ${1:${2:* as }http2} from 'http2';"
+    },
+    "(typescript) - import = require 'http2'": {
+        "prefix": "ts::http2",
+        "description": "import http2 = require('http2')",
+        "body": "import ${1:http2} = require('http2');"
+    },
+    "(commonjs) - require 'https'": {
+        "prefix": "req::https",
+        "description": "const https = require('https')",
+        "body": "const ${1:https} = require('https');"
+    },
+    "(esmodule) - import 'https'": {
+        "prefix": "esm::https",
+        "description": "import https from 'https'",
+        "body": "import ${1:${2:* as }https} from 'https';"
+    },
+    "(typescript) - import = require 'https'": {
+        "prefix": "ts::https",
+        "description": "import https = require('https')",
+        "body": "import ${1:https} = require('https');"
+    },
+    "(commonjs) - require 'inspector'": {
+        "prefix": "req::inspector",
+        "description": "const inspector = require('inspector')",
+        "body": "const ${1:inspector} = require('inspector');"
+    },
+    "(esmodule) - import 'inspector'": {
+        "prefix": "esm::inspector",
+        "description": "import inspector from 'inspector'",
+        "body": "import ${1:${2:* as }inspector} from 'inspector';"
+    },
+    "(typescript) - import = require 'inspector'": {
+        "prefix": "ts::inspector",
+        "description": "import inspector = require('inspector')",
+        "body": "import ${1:inspector} = require('inspector');"
+    },
+    "(commonjs) - require 'module'": {
+        "prefix": "req::module",
+        "description": "const module = require('module')",
+        "body": "const ${1:module} = require('module');"
+    },
+    "(esmodule) - import 'module'": {
+        "prefix": "esm::module",
+        "description": "import module from 'module'",
+        "body": "import ${1:${2:* as }module} from 'module';"
+    },
+    "(typescript) - import = require 'module'": {
+        "prefix": "ts::module",
+        "description": "import module = require('module')",
+        "body": "import ${1:module} = require('module');"
+    },
+    "(commonjs) - require 'net'": {
+        "prefix": "req::net",
+        "description": "const net = require('net')",
+        "body": "const ${1:net} = require('net');"
+    },
+    "(esmodule) - import 'net'": {
+        "prefix": "esm::net",
+        "description": "import net from 'net'",
+        "body": "import ${1:${2:* as }net} from 'net';"
+    },
+    "(typescript) - import = require 'net'": {
+        "prefix": "ts::net",
+        "description": "import net = require('net')",
+        "body": "import ${1:net} = require('net');"
+    },
+    "(commonjs) - require 'os'": {
+        "prefix": "req::os",
+        "description": "const os = require('os')",
+        "body": "const ${1:os} = require('os');"
+    },
+    "(esmodule) - import 'os'": {
+        "prefix": "esm::os",
+        "description": "import os from 'os'",
+        "body": "import ${1:${2:* as }os} from 'os';"
+    },
+    "(typescript) - import = require 'os'": {
+        "prefix": "ts::os",
+        "description": "import os = require('os')",
+        "body": "import ${1:os} = require('os');"
+    },
+    "(commonjs) - require 'path'": {
+        "prefix": "req::path",
+        "description": "const path = require('path')",
+        "body": "const ${1:path} = require('path');"
+    },
+    "(esmodule) - import 'path'": {
+        "prefix": "esm::path",
+        "description": "import path from 'path'",
+        "body": "import ${1:${2:* as }path} from 'path';"
+    },
+    "(typescript) - import = require 'path'": {
+        "prefix": "ts::path",
+        "description": "import path = require('path')",
+        "body": "import ${1:path} = require('path');"
+    },
+    "(commonjs) - require 'perf_hooks'": {
+        "prefix": "req::perf_hooks",
+        "description": "const perf_hooks = require('perf_hooks')",
+        "body": "const ${1:perf_hooks} = require('perf_hooks');"
+    },
+    "(esmodule) - import 'perf_hooks'": {
+        "prefix": "esm::perf_hooks",
+        "description": "import perf_hooks from 'perf_hooks'",
+        "body": "import ${1:${2:* as }perf_hooks} from 'perf_hooks';"
+    },
+    "(typescript) - import = require 'perf_hooks'": {
+        "prefix": "ts::perf_hooks",
+        "description": "import perf_hooks = require('perf_hooks')",
+        "body": "import ${1:perf_hooks} = require('perf_hooks');"
+    },
+    "(commonjs) - require 'process'": {
+        "prefix": "req::process",
+        "description": "const process = require('process')",
+        "body": "const ${1:process} = require('process');"
+    },
+    "(esmodule) - import 'process'": {
+        "prefix": "esm::process",
+        "description": "import process from 'process'",
+        "body": "import ${1:${2:* as }process} from 'process';"
+    },
+    "(typescript) - import = require 'process'": {
+        "prefix": "ts::process",
+        "description": "import process = require('process')",
+        "body": "import ${1:process} = require('process');"
+    },
+    "(commonjs) - require 'punycode'": {
+        "prefix": "req::punycode",
+        "description": "const punycode = require('punycode')",
+        "body": "const ${1:punycode} = require('punycode');"
+    },
+    "(esmodule) - import 'punycode'": {
+        "prefix": "esm::punycode",
+        "description": "import punycode from 'punycode'",
+        "body": "import ${1:${2:* as }punycode} from 'punycode';"
+    },
+    "(typescript) - import = require 'punycode'": {
+        "prefix": "ts::punycode",
+        "description": "import punycode = require('punycode')",
+        "body": "import ${1:punycode} = require('punycode');"
+    },
+    "(commonjs) - require 'querystring'": {
+        "prefix": "req::querystring",
+        "description": "const querystring = require('querystring')",
+        "body": "const ${1:querystring} = require('querystring');"
+    },
+    "(esmodule) - import 'querystring'": {
+        "prefix": "esm::querystring",
+        "description": "import querystring from 'querystring'",
+        "body": "import ${1:${2:* as }querystring} from 'querystring';"
+    },
+    "(typescript) - import = require 'querystring'": {
+        "prefix": "ts::querystring",
+        "description": "import querystring = require('querystring')",
+        "body": "import ${1:querystring} = require('querystring');"
+    },
+    "(commonjs) - require 'readline'": {
+        "prefix": "req::readline",
+        "description": "const readline = require('readline')",
+        "body": "const ${1:readline} = require('readline');"
+    },
+    "(esmodule) - import 'readline'": {
+        "prefix": "esm::readline",
+        "description": "import readline from 'readline'",
+        "body": "import ${1:${2:* as }readline} from 'readline';"
+    },
+    "(typescript) - import = require 'readline'": {
+        "prefix": "ts::readline",
+        "description": "import readline = require('readline')",
+        "body": "import ${1:readline} = require('readline');"
+    },
+    "(commonjs) - require 'repl'": {
+        "prefix": "req::repl",
+        "description": "const repl = require('repl')",
+        "body": "const ${1:repl} = require('repl');"
+    },
+    "(esmodule) - import 'repl'": {
+        "prefix": "esm::repl",
+        "description": "import repl from 'repl'",
+        "body": "import ${1:${2:* as }repl} from 'repl';"
+    },
+    "(typescript) - import = require 'repl'": {
+        "prefix": "ts::repl",
+        "description": "import repl = require('repl')",
+        "body": "import ${1:repl} = require('repl');"
+    },
+    "(commonjs) - require 'stream'": {
+        "prefix": "req::stream",
+        "description": "const stream = require('stream')",
+        "body": "const ${1:stream} = require('stream');"
+    },
+    "(esmodule) - import 'stream'": {
+        "prefix": "esm::stream",
+        "description": "import stream from 'stream'",
+        "body": "import ${1:${2:* as }stream} from 'stream';"
+    },
+    "(typescript) - import = require 'stream'": {
+        "prefix": "ts::stream",
+        "description": "import stream = require('stream')",
+        "body": "import ${1:stream} = require('stream');"
+    },
+    "(commonjs) - require 'string_decoder'": {
+        "prefix": "req::string_decoder",
+        "description": "const string_decoder = require('string_decoder')",
+        "body": "const ${1:string_decoder} = require('string_decoder');"
+    },
+    "(esmodule) - import 'string_decoder'": {
+        "prefix": "esm::string_decoder",
+        "description": "import string_decoder from 'string_decoder'",
+        "body": "import ${1:${2:* as }string_decoder} from 'string_decoder';"
+    },
+    "(typescript) - import = require 'string_decoder'": {
+        "prefix": "ts::string_decoder",
+        "description": "import string_decoder = require('string_decoder')",
+        "body": "import ${1:string_decoder} = require('string_decoder');"
+    },
+    "(commonjs) - require 'timers'": {
+        "prefix": "req::timers",
+        "description": "const timers = require('timers')",
+        "body": "const ${1:timers} = require('timers');"
+    },
+    "(esmodule) - import 'timers'": {
+        "prefix": "esm::timers",
+        "description": "import timers from 'timers'",
+        "body": "import ${1:${2:* as }timers} from 'timers';"
+    },
+    "(typescript) - import = require 'timers'": {
+        "prefix": "ts::timers",
+        "description": "import timers = require('timers')",
+        "body": "import ${1:timers} = require('timers');"
+    },
+    "(commonjs) - require 'tls'": {
+        "prefix": "req::tls",
+        "description": "const tls = require('tls')",
+        "body": "const ${1:tls} = require('tls');"
+    },
+    "(esmodule) - import 'tls'": {
+        "prefix": "esm::tls",
+        "description": "import tls from 'tls'",
+        "body": "import ${1:${2:* as }tls} from 'tls';"
+    },
+    "(typescript) - import = require 'tls'": {
+        "prefix": "ts::tls",
+        "description": "import tls = require('tls')",
+        "body": "import ${1:tls} = require('tls');"
+    },
+    "(commonjs) - require 'trace_events'": {
+        "prefix": "req::trace_events",
+        "description": "const trace_events = require('trace_events')",
+        "body": "const ${1:trace_events} = require('trace_events');"
+    },
+    "(esmodule) - import 'trace_events'": {
+        "prefix": "esm::trace_events",
+        "description": "import trace_events from 'trace_events'",
+        "body": "import ${1:${2:* as }trace_events} from 'trace_events';"
+    },
+    "(typescript) - import = require 'trace_events'": {
+        "prefix": "ts::trace_events",
+        "description": "import trace_events = require('trace_events')",
+        "body": "import ${1:trace_events} = require('trace_events');"
+    },
+    "(commonjs) - require 'tty'": {
+        "prefix": "req::tty",
+        "description": "const tty = require('tty')",
+        "body": "const ${1:tty} = require('tty');"
+    },
+    "(esmodule) - import 'tty'": {
+        "prefix": "esm::tty",
+        "description": "import tty from 'tty'",
+        "body": "import ${1:${2:* as }tty} from 'tty';"
+    },
+    "(typescript) - import = require 'tty'": {
+        "prefix": "ts::tty",
+        "description": "import tty = require('tty')",
+        "body": "import ${1:tty} = require('tty');"
+    },
+    "(commonjs) - require 'url'": {
+        "prefix": "req::url",
+        "description": "const url = require('url')",
+        "body": "const ${1:url} = require('url');"
+    },
+    "(esmodule) - import 'url'": {
+        "prefix": "esm::url",
+        "description": "import url from 'url'",
+        "body": "import ${1:${2:* as }url} from 'url';"
+    },
+    "(typescript) - import = require 'url'": {
+        "prefix": "ts::url",
+        "description": "import url = require('url')",
+        "body": "import ${1:url} = require('url');"
+    },
+    "(commonjs) - require 'util'": {
+        "prefix": "req::util",
+        "description": "const util = require('util')",
+        "body": "const ${1:util} = require('util');"
+    },
+    "(esmodule) - import 'util'": {
+        "prefix": "esm::util",
+        "description": "import util from 'util'",
+        "body": "import ${1:${2:* as }util} from 'util';"
+    },
+    "(typescript) - import = require 'util'": {
+        "prefix": "ts::util",
+        "description": "import util = require('util')",
+        "body": "import ${1:util} = require('util');"
+    },
+    "(commonjs) - require 'v8'": {
+        "prefix": "req::v8",
+        "description": "const v8 = require('v8')",
+        "body": "const ${1:v8} = require('v8');"
+    },
+    "(esmodule) - import 'v8'": {
+        "prefix": "esm::v8",
+        "description": "import v8 from 'v8'",
+        "body": "import ${1:${2:* as }v8} from 'v8';"
+    },
+    "(typescript) - import = require 'v8'": {
+        "prefix": "ts::v8",
+        "description": "import v8 = require('v8')",
+        "body": "import ${1:v8} = require('v8');"
+    },
+    "(commonjs) - require 'vm'": {
+        "prefix": "req::vm",
+        "description": "const vm = require('vm')",
+        "body": "const ${1:vm} = require('vm');"
+    },
+    "(esmodule) - import 'vm'": {
+        "prefix": "esm::vm",
+        "description": "import vm from 'vm'",
+        "body": "import ${1:${2:* as }vm} from 'vm';"
+    },
+    "(typescript) - import = require 'vm'": {
+        "prefix": "ts::vm",
+        "description": "import vm = require('vm')",
+        "body": "import ${1:vm} = require('vm');"
+    },
+    "(commonjs) - require 'zlib'": {
+        "prefix": "req::zlib",
+        "description": "const zlib = require('zlib')",
+        "body": "const ${1:zlib} = require('zlib');"
+    },
+    "(esmodule) - import 'zlib'": {
+        "prefix": "esm::zlib",
+        "description": "import zlib from 'zlib'",
+        "body": "import ${1:${2:* as }zlib} from 'zlib';"
+    },
+    "(typescript) - import = require 'zlib'": {
+        "prefix": "ts::zlib",
+        "description": "import zlib = require('zlib')",
+        "body": "import ${1:zlib} = require('zlib');"
+    }
+}
