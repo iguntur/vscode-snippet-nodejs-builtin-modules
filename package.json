@@ -1,6 +1,6 @@
 {
 	"name": "nodejs-module-snippet",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "VSCode Snippet for NodeJS Builtin Modules",
 	"displayName": "NodeJS Module Snippet",
 	"publisher": "gunturpoetra",
@@ -53,6 +53,7 @@
 	},
 	"devDependencies": {
 		"builtin-modules": "^3.0.0",
+		"lodash": "^4.17.11",
 		"path-ensure": "^2.0.1"
 	}
 }
