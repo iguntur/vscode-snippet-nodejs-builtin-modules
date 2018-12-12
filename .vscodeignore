@@ -1,7 +1,9 @@
-*
+.vscode
+lib
+scripts
 
-!.vscodeignore
-!snippets
-!license
-!package.json
-!readme.md
+.editorconfig
+.gitattributes
+.gitignore
+.npmrc
+*.vsix
